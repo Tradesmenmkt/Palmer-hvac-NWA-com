@@ -1,0 +1,107 @@
+{
+  "project_name": "Palmer HVAC",
+  "domain": "HVAC Services",
+  "theme": "light",
+  "archetype": "Swiss & High-Contrast (Adapted for local service trust)",
+  "colors": {
+    "background": "0 0% 100%",
+    "foreground": "0 0% 10%",
+    "primary": "208 79% 28%",
+    "primary_foreground": "0 0% 100%",
+    "secondary": "16 100% 60%",
+    "secondary_foreground": "0 0% 100%",
+    "muted": "210 20% 96%",
+    "muted_foreground": "215 16% 47%",
+    "accent": "16 100% 60%",
+    "accent_foreground": "0 0% 100%",
+    "border": "214 32% 91%",
+    "card": "0 0% 100%",
+    "card_foreground": "0 0% 10%"
+  },
+  "typography": {
+    "font_families": {
+      "headings": "'Work Sans', sans-serif",
+      "body": "'Manrope', sans-serif"
+    },
+    "scale": {
+      "h1": "text-5xl sm:text-6xl tracking-tight font-black",
+      "h2": "text-4xl sm:text-5xl tracking-tight font-bold",
+      "h3": "text-2xl sm:text-3xl font-semibold",
+      "h4": "text-lg font-semibold",
+      "body": "text-base leading-relaxed",
+      "small": "text-sm tracking-wide uppercase"
+    }
+  },
+  "layout": {
+    "spacing_scale": "p-4, p-8, p-12, p-16, p-24",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_strategies": {
+      "services": "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
+      "areas": "grid-cols-2 md:grid-cols-4 gap-4",
+      "form": "grid-cols-1 md:grid-cols-2 gap-6"
+    }
+  },
+  "components": {
+    "header": {
+      "style": "Solid background (bg-[#0F4C81] or primary) z-50 to make the white logo pop. Sticky top.",
+      "elements": "Palmer Logo on left, Navigation in center, large Phone CTA on right.",
+      "cta": "Click-to-call phone prominent on right (479-200-5421)"
+    },
+    "hero": {
+      "layout": "relative flex items-center min-h-[85vh] md:min-h-[75vh]",
+      "background": "Use hero_bg image with heavy gradient overlay: bg-gradient-to-r from-[#0F4C81]/95 via-[#0F4C81]/80 to-transparent",
+      "content": "Big H1, '24/7 Emergency Service Available • Mon–Sat 7am–7pm' badge, large primary phone CTA (Accent color), secondary buttons (Schedule Service, Free Estimate)."
+    },
+    "service_cards": {
+      "style": "Clean white cards with 1px border, subtle shadow-sm hover:shadow-md hover:-translate-y-1 transition-all. Internal padding p-6.",
+      "icon_strategy": "Use dual-tone aesthetic or lucide-react icons (blue for cooling, orange for heating).",
+      "list": [
+        "AC repair", "AC install", "Heating repair", "Furnace repair", 
+        "Furnace install", "Heat pump repair", "Heat pump install", 
+        "HVAC maintenance", "Seasonal tune-ups", "Thermostat install", 
+        "Indoor air quality", "Ductwork", "Emergency HVAC", 
+        "Residential HVAC", "Light commercial HVAC"
+      ]
+    },
+    "form": {
+      "style": "Strict grid layout inside a clean card. Shadcn inputs with primary border focus.",
+      "fields": [
+        "Name", "Phone", "Email", "Address", "City", 
+        "Service Needed (Select)", "Urgency (Select)", 
+        "Preferred Contact (Select)", "Message (Textarea)"
+      ]
+    },
+    "footer": {
+      "style": "Dark background (bg-slate-950), text-slate-300 py-16",
+      "content": "Palmer logo (white), 24/7 trust badge, phone, links, Service Areas list, Tradesmen credit line with T logo at bottom"
+    }
+  },
+  "media": {
+    "logos": {
+      "palmer_white": "https://customer-assets.emergentagent.com/job_cb9d6de7-f6da-41a1-bf20-283773492e4e/artifacts/mwa9u04z_Palmer_HVAC_white_logo.png",
+      "palmer_icon": "https://customer-assets.emergentagent.com/job_cb9d6de7-f6da-41a1-bf20-283773492e4e/artifacts/9ew9uy8t_Palmer_HVAC_white_only_logo.png",
+      "tradesmen": "https://customer-assets.emergentagent.com/job_cb9d6de7-f6da-41a1-bf20-283773492e4e/artifacts/34mfxv25_Untitled%20design%20%2820%29.png"
+    },
+    "images": {
+      "hero_bg": "https://images.pexels.com/photos/6471911/pexels-photo-6471911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "about_tech": "https://images.pexels.com/photos/6471913/pexels-photo-6471913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "modern_ac": "https://images.pexels.com/photos/1567355/pexels-photo-1567355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+  },
+  "testing": {
+    "instructions": "All interactive and key informational elements MUST include a data-testid attribute. e.g. data-testid=\"hero-phone-cta\""
+  },
+  "motion": {
+    "hover": "Subtle translate-y-1 and shadow-lg on interactive cards",
+    "entrance": "Staggered fade-up for service cards and area grid",
+    "buttons": "Active scale down on click (active:scale-95 transition-transform)"
+  },
+  "instructions_to_main_agent": [
+    "Install and use Work Sans for headings and Manrope for body text.",
+    "Ensure header has background of primary blue (bg-primary) so the white Palmer HVAC logo pops, or use sticky glassmorphism over a dark section.",
+    "Form must have exactly 9 fields as specified and save to backend. Ensure Shadcn select is used for dropdowns.",
+    "Make the phone number (479-200-5421) extremely prominent in Header, Hero, and Footer.",
+    "Use lucide-react icons for service cards.",
+    "Add data-testid attributes to all buttons, links, and form inputs."
+  ]
+}
