@@ -36,7 +36,9 @@ export default function Header() {
     ? "text-slate-700 hover:text-[hsl(208_79%_28%)]"
     : "text-white/85 hover:text-white";
   const mobileIcon = scrolled ? "text-slate-900 hover:bg-slate-100" : "text-white hover:bg-white/10";
-  const logoFilter = scrolled ? "none" : "invert(1) brightness(2)";
+  const logoFilter = scrolled
+    ? "brightness(0)"
+    : "brightness(0) invert(1)";
   const phoneCta = scrolled
     ? "bg-[hsl(208_79%_28%)] hover:bg-[hsl(208_79%_22%)] text-white shadow-md"
     : "bg-[hsl(16_100%_56%)] hover:bg-[hsl(16_100%_50%)] text-white shadow-lg shadow-orange-900/20";
