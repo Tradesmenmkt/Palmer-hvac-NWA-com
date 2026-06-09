@@ -9,12 +9,40 @@ export const SITE = {
   tradesmenLogo:
     "https://customer-assets.emergentagent.com/job_cb9d6de7-f6da-41a1-bf20-283773492e4e/artifacts/34mfxv25_Untitled%20design%20%2820%29.png",
   heroBg:
-    "https://images.pexels.com/photos/6471911/pexels-photo-6471911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1600",
+    "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/58youbok_503996369_1278087994317375_1534235962343105359_n.jpg",
   aboutImg:
-    "https://images.pexels.com/photos/6471913/pexels-photo-6471913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/36jhzl6j_500167109_1271385411654300_2138612297338853881_n.jpg",
   serviceImg:
-    "https://images.pexels.com/photos/1567355/pexels-photo-1567355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/rxbp9bar_499928187_1271411401651701_7011239826645178670_n.jpg",
 };
+
+export const GALLERY = [
+  {
+    src: "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/58youbok_503996369_1278087994317375_1534235962343105359_n.jpg",
+    alt: "Palmer HVAC team — three technicians installing commercial rooftop HVAC in Northwest Arkansas",
+    caption: "Commercial Rooftop Install",
+  },
+  {
+    src: "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/36jhzl6j_500167109_1271385411654300_2138612297338853881_n.jpg",
+    alt: "Palmer HVAC air conditioning installation — multiple outdoor AC condenser units in Northwest Arkansas",
+    caption: "Multi-Unit AC Installation",
+  },
+  {
+    src: "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/2jiuszgd_500561084_1271383938321114_1697376448739793258_n.jpg",
+    alt: "Palmer HVAC custom sheet metal ductwork fabrication and install in NW Arkansas home",
+    caption: "Custom Sheet Metal Ductwork",
+  },
+  {
+    src: "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/rxbp9bar_499928187_1271411401651701_7011239826645178670_n.jpg",
+    alt: "Palmer HVAC high-efficiency furnace installation by HVAC contractor in Northwest Arkansas",
+    caption: "Furnace Installation",
+  },
+  {
+    src: "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/5rrg6okw_499930009_1271398854986289_4500475710265033610_n.jpg",
+    alt: "Palmer HVAC residential attic ductwork — heating and cooling team in Northwest Arkansas",
+    caption: "Attic Ductwork & Airflow",
+  },
+];
 
 export const SERVICES = [
   { title: "AC Repair", desc: "Fast, reliable air conditioning repair to restore cool comfort. Our HVAC technicians diagnose and fix all major AC brands.", icon: "Snowflake" },

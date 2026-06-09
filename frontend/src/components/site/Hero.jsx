@@ -8,15 +8,19 @@ export default function Hero() {
       id="home"
       className="relative isolate overflow-hidden bg-[hsl(208_79%_14%)]"
     >
-      {/* Background image */}
+      {/* Background image — Palmer HVAC team photo */}
       <div className="absolute inset-0 -z-10">
         <img
           src={SITE.heroBg}
-          alt="HVAC technician servicing a residential air conditioning system in Northwest Arkansas"
-          className="h-full w-full object-cover opacity-40"
+          alt="Palmer HVAC team — three technicians installing commercial rooftop HVAC in Northwest Arkansas"
+          className="h-full w-full object-cover object-center"
+          fetchPriority="high"
+          loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[hsl(208_79%_14%)] via-[hsl(208_79%_14%)]/85 to-[hsl(208_79%_14%)]/30" />
-        <div className="absolute inset-0 bg-grain opacity-30" />
+        {/* Stronger dark overlay for text readability */}
+        <div className="absolute inset-0 bg-[hsl(208_79%_10%)]/85" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[hsl(208_79%_10%)] via-[hsl(208_79%_10%)]/85 to-[hsl(208_79%_10%)]/55" />
+        <div className="absolute inset-0 bg-grain opacity-25" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">

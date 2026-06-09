@@ -17,8 +17,10 @@ export default function About() {
             <div className="aspect-[4/5] rounded-3xl overflow-hidden ring-1 ring-slate-200 shadow-xl">
               <img
                 src={SITE.aboutImg}
-                alt="Palmer HVAC technician performing heating and cooling service"
+                alt="Palmer HVAC air conditioning installation — outdoor AC condenser units installed by Palmer HVAC technicians in Northwest Arkansas"
                 className="h-full w-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 hidden md:block rounded-2xl bg-[hsl(208_79%_18%)] px-6 py-5 text-white shadow-2xl">

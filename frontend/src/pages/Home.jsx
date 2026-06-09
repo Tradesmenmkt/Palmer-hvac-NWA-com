@@ -5,6 +5,7 @@ import Services from "@/components/site/Services";
 import CallBanner from "@/components/site/CallBanner";
 import ServiceAreas from "@/components/site/ServiceAreas";
 import About from "@/components/site/About";
+import Gallery from "@/components/site/Gallery";
 import Reviews from "@/components/site/Reviews";
 import ContactForm from "@/components/site/ContactForm";
 import Footer from "@/components/site/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <CallBanner />
         <ServiceAreas />
         <About />
+        <Gallery />
         <Reviews />
         <ContactForm />
       </main>
