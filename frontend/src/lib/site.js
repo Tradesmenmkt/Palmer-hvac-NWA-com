@@ -91,27 +91,23 @@ export const SEO_AREA_PHRASES = [
 
 export const REVIEWS = [
   {
-    name: "Jessica M.",
-    city: "Bentonville, AR",
+    name: "Pat Martin",
     rating: 5,
-    text: "Our AC went out on a Saturday night. Palmer HVAC was at the house in under two hours and had it running before bedtime. Honest, professional, and fairly priced.",
+    text: "We had a really great experience. Adam explained things to us in terms we could understand and was honest about the repair that was actually necessary. I would recommend Palmer heating and air without reservation.",
   },
   {
-    name: "Daniel R.",
-    city: "Fayetteville, AR",
+    name: "Stacy Garcia",
     rating: 5,
-    text: "They replaced our entire system and the difference is night and day. Cleaner air, lower power bill, and the install crew was respectful of our home.",
+    text: "Super grateful for Palmer Heating & Air! They were able to squeeze us in at the last minute for a quick PM on both our rent house and our current home. Showed up on time, got everything checked out fast, and were super easy to work with.",
   },
   {
-    name: "Marcus T.",
-    city: "Siloam Springs, AR",
+    name: "Sarah Sandoval-Jastal",
     rating: 5,
-    text: "I've used Palmer HVAC for both my house and my shop. They show up when they say they will and stand behind their work. Highly recommend.",
+    text: "Andrew and Jacob were able to do a quick and seamless job at our childcare facility. They were professional and polite. We did expect them days sooner than expected, then when the day came, we were told they would be here within a certain time and they were late. So communication about scheduling could have been better. But overall, they did a good job.",
   },
   {
-    name: "Allison K.",
-    city: "Rogers, AR",
+    name: "Nicci Brose",
     rating: 5,
-    text: "Furnace repair on the coldest night of the year. They got it fixed, explained the problem, and didn't try to upsell. Customers for life.",
+    text: "Steven and Sam came and saved the day! They were so nice, respectful, cheerful, and truly amazing at what they do! Put in an entire new unit and got us air again! So thankful for them, their incredible work, and their awesome hearts!!!!",
   },
 ];
