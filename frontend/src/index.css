@@ -93,6 +93,36 @@ code {
 }
 .phone-pulse { animation: phonePulse 2.2s infinite; }
 
+/* Floating promo — attention pulse (dark/amber theme) */
+@keyframes promoGlowAmber {
+    0%, 100% { box-shadow: 0 18px 40px -10px rgba(0,0,0,0.45), 0 0 0 0 rgba(252,211,77,0.55); }
+    50%      { box-shadow: 0 18px 40px -10px rgba(0,0,0,0.45), 0 0 0 14px rgba(252,211,77,0); }
+}
+.promo-glow-amber { animation: promoGlowAmber 2.2s infinite; }
+
+/* Floating promo — attention pulse (blue theme) */
+@keyframes promoGlowBlue {
+    0%, 100% { box-shadow: 0 18px 40px -10px rgba(15,76,129,0.35), 0 0 0 0 rgba(255,103,31,0.55); }
+    50%      { box-shadow: 0 18px 40px -10px rgba(15,76,129,0.35), 0 0 0 14px rgba(255,103,31,0); }
+}
+.promo-glow-blue { animation: promoGlowBlue 2.2s infinite; }
+
+/* Promo entrance wiggle on first appearance */
+@keyframes promoEnter {
+    0%   { transform: translateY(40px) scale(0.9); opacity: 0; }
+    60%  { transform: translateY(-6px) scale(1.03); opacity: 1; }
+    80%  { transform: translateY(2px) scale(0.99); }
+    100% { transform: translateY(0)    scale(1);    }
+}
+.promo-enter { animation: promoEnter 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* Small star sparkle */
+@keyframes promoSparkle {
+    0%, 100% { transform: scale(1) rotate(0); opacity: 0.9; }
+    50%      { transform: scale(1.25) rotate(20deg); opacity: 1; }
+}
+.promo-sparkle { animation: promoSparkle 1.6s ease-in-out infinite; }
+
 /* Section scroll offset for sticky header */
 section[id] { scroll-margin-top: 96px; }
 
