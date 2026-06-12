@@ -33,12 +33,9 @@ export default function FloatingPromo({
         return;
       }
     } catch (_) {}
-    const onScroll = () => {
-      setVisible(window.scrollY > 600);
-    };
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    // Show immediately on page load, with a small delay so the slide-in animation plays.
+    const t = setTimeout(() => setVisible(true), 400);
+    return () => clearTimeout(t);
   }, [storageKey]);
 
   if (dismissed) return null;
