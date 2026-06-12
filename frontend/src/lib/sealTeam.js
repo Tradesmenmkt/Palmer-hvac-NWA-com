@@ -1,7 +1,7 @@
 export const SEAL_TEAM = {
   logo: "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/2u0we42h_CFCDB172-0D39-4E01-9DD4-8A83B8282693.PNG",
-  phoneDisplay: "(479) 200-5421",
-  phoneTel: "+14792005421",
+  phoneDisplay: "(479) 900-8804",
+  phoneTel: "+14799008804",
   // Background image — attic insulation / ductwork (real Palmer/Seal Team job site)
   heroBg:
     "https://customer-assets.emergentagent.com/job_palmer-hvac-pro/artifacts/5rrg6okw_499930009_1271398854986289_4500475710265033610_n.jpg",

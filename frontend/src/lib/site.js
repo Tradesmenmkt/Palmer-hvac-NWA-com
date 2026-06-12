@@ -1,6 +1,6 @@
 export const SITE = {
-  phoneDisplay: "(479) 200-5421",
-  phoneTel: "+14792005421",
+  phoneDisplay: "(479) 900-8804",
+  phoneTel: "+14799008804",
   hours: "24/7 Emergency Service Available • Mon–Sat 7am–7pm",
   logoWhite:
     "https://customer-assets.emergentagent.com/job_cb9d6de7-f6da-41a1-bf20-283773492e4e/artifacts/mwa9u04z_Palmer_HVAC_white_logo.png",
