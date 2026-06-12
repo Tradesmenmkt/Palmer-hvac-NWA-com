@@ -1,6 +1,7 @@
 import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "@/pages/Home";
+import SealTeamInsulation from "@/pages/SealTeamInsulation";
 import { Toaster } from "@/components/ui/sonner";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/seal-team-insulation" element={<SealTeamInsulation />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>

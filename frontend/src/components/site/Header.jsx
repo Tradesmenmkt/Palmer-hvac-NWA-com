@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Menu, Phone, X } from "lucide-react";
+import { Menu, Phone, X, Snowflake } from "lucide-react";
+import { Link } from "react-router-dom";
 import { SITE } from "@/lib/site";
 import { NAV } from "@/constants/testIds";
 
@@ -66,7 +67,7 @@ export default function Header() {
             </div>
           </a>
 
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-7">
             {navItems.map((item) => (
               <a
                 key={item.id}
@@ -77,6 +78,15 @@ export default function Header() {
                 {item.label}
               </a>
             ))}
+            <Link
+              to="/seal-team-insulation"
+              data-testid="nav-spray-foam"
+              className={`inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wider transition-colors ${
+                scrolled ? "text-[#1e3a8a] hover:text-stone-900" : "text-amber-200 hover:text-amber-100"
+              }`}
+            >
+              <Snowflake className="h-3.5 w-3.5" /> Spray Foam
+            </Link>
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
@@ -117,6 +127,16 @@ export default function Header() {
                   {item.label}
                 </a>
               ))}
+              <Link
+                to="/seal-team-insulation"
+                onClick={close}
+                data-testid="m-nav-spray-foam"
+                className={`px-3 py-3 rounded-md text-base font-bold uppercase tracking-wider ${
+                  scrolled ? "text-[#1e3a8a] hover:bg-stone-100" : "text-amber-200 hover:bg-white/5"
+                }`}
+              >
+                Spray Foam Insulation →
+              </Link>
               <a
                 href={`tel:${SITE.phoneTel}`}
                 onClick={close}
