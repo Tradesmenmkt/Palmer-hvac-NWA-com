@@ -3,6 +3,7 @@ import * as Icons from "lucide-react";
 import { Phone, ArrowRight, CheckCircle2, FileText, ShieldCheck, Target, Zap } from "lucide-react";
 import SealHeader from "@/components/seal/SealHeader";
 import SealFooter from "@/components/seal/SealFooter";
+import FloatingPromo from "@/components/site/FloatingPromo";
 import {
   SEAL_TEAM,
   SEAL_FEATURES,
@@ -10,6 +11,7 @@ import {
   SEAL_PROCESS,
   SEAL_AREAS,
 } from "@/lib/sealTeam";
+import { SITE } from "@/lib/site";
 
 function useSealSEO() {
   useEffect(() => {
@@ -79,6 +81,15 @@ export default function SealTeamInsulation() {
         <CTA />
       </main>
       <SealFooter />
+      <FloatingPromo
+        to="/"
+        eyebrow="Sister Company"
+        title="Palmer HVAC — Heating & Cooling"
+        storageKey="seal_promo_palmer_dismissed"
+        theme="blue"
+        testId="promo-to-palmer"
+        logoSrc={SITE.logoIcon}
+      />
     </div>
   );
 }
