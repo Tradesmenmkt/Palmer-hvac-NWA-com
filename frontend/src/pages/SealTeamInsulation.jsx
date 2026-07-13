@@ -74,9 +74,9 @@ export default function SealTeamInsulation() {
       <main>
         <Hero />
         <WhySprayFoam />
-        <Services />
         <TrustBand />
         <Process />
+        <Services />
         <Areas />
         <CTA />
       </main>
@@ -165,7 +165,7 @@ function Hero() {
 
           {/* Badge / logo card */}
           <div className="hidden lg:block lg:col-span-4">
-            <div className="relative mx-auto w-full max-w-sm rounded-xl bg-white p-8 shadow-2xl shadow-amber-900/20 ring-1 ring-white/10 rotate-[1.5deg]">
+            <div className="relative mx-auto w-full max-w-sm rounded-xl bg-white p-8 shadow-2xl shadow-amber-900/20 ring-1 ring-white/10">
               <img
                 src={SEAL_TEAM.logo}
                 alt="Seal Team Insulation logo — spray foam contractor"

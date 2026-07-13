@@ -18,12 +18,12 @@ export default function Home() {
       <main>
         <Hero />
         <TrustStrip />
-        <Services />
         <CallBanner />
-        <ServiceAreas />
         <About />
         <Gallery />
         <Reviews />
+        <Services />
+        <ServiceAreas />
         <ContactForm />
       </main>
       <Footer />
